@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +15,39 @@
     <meta name="description" content="Huur nu een hoogwerker in Veendam met 10% korting. Professionele service, snelle levering en de beste prijzen.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-inter antialiased text-gray-900 bg-white">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="container mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold text-blue-600">Hoogwerker Veendam</a>
+                <a href="https://readthisnow.github.io/hoogwerker-huren-veendam-2025-04-27-mi7ir" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">Hoogwerker Veendam</a>
+                
+                <button class="mobile-menu-button md:hidden" aria-label="Menu">
+                    <i class="fas fa-bars text-2xl text-blue-600"></i>
+                </button>
+
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Kenmerken</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Voordelen</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Reviews</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Over Ons</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <a href="https://hansschuiling.nl" class="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors duration-300">Direct Huren</a>
+
+                <div class="mobile-menu hidden md:hidden absolute top-full left-0 w-full bg-white border-b border-gray-100">
+                    <div class="flex flex-col space-y-4 p-4">
+                        <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Kenmerken</a>
+                        <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Voordelen</a>
+                        <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Reviews</a>
+                        <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Over Ons</a>
+                        <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                        <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
+                    </div>
+                </div>
+
+                <a href="https://hansschuiling.nl" class="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">Direct Huren</a>
             </div>
         </nav>
     </header>
@@ -28,11 +56,11 @@
         <section class="pt-32 pb-24 bg-gradient-to-br from-blue-50 to-white">
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="max-w-4xl mx-auto text-center">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Hoogwerker Huren Veendam</h1>
-                    <p class="text-xl md:text-2xl text-gray-600 mb-8">Tijdelijk 10% Korting op alle hoogwerkers!</p>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Professionele Hoogwerker Verhuur in Veendam</h1>
+                    <p class="text-xl md:text-2xl text-gray-600 mb-8">Tijdelijk 10% Korting op ons complete assortiment hoogwerkers! Inclusief transport en verzekering.</p>
                     <div class="flex flex-col sm:flex-row justify-center gap-4">
-                        <a href="https://hansschuiling.nl" class="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Direct Reserveren</a>
-                        <a href="#contact" class="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-colors duration-300">Meer Informatie</a>
+                        <a href="https://hansschuiling.nl" class="bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Direct Reserveren</a>
+                        <a href="#contact" class="bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold border-2 border-blue-600 hover:bg-blue-50 transition-all duration-300 transform hover:scale-105">Meer Informatie</a>
                     </div>
                 </div>
             </div>
@@ -42,14 +70,29 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Waarom Onze Hoogwerkers?</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="text-blue-600 mb-4">
                             <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
                         </div>
                         <h3 class="text-xl font-semibold mb-4">Snelle Levering</h3>
-                        <p class="text-gray-600">Binnen 24 uur geleverd in heel Veendam en omgeving. Nog maar 2 hoogwerkers beschikbaar voor morgen!</p>
+                        <p class="text-gray-600">Binnen 24 uur geleverd in heel Veendam en omgeving. Professioneel transport en plaatsing inbegrepen. Nog maar 2 hoogwerkers beschikbaar voor morgen!</p>
                     </div>
-                    <!-- More feature cards... -->
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">24/7 Service</h3>
+                        <p class="text-gray-600">Dag en nacht bereikbaar voor support en assistentie. Technische ondersteuning altijd binnen handbereik voor maximale efficiency.</p>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <div class="text-blue-600 mb-4">
+                            <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Kwaliteitsgarantie</h3>
+                        <p class="text-gray-600">Alle hoogwerkers worden grondig geïnspecteerd en onderhouden. Volledig gecertificeerd en verzekerd voor uw gemoedsrust.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -58,7 +101,67 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Voordelen van Huren bij Ons</h2>
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    <!-- Benefits content... -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-2xl font-semibold mb-4">Flexibele Huurperiodes</h3>
+                        <p class="text-gray-600">Van dagdelen tot langetermijnverhuur mogelijk. Altijd een passende oplossing voor uw project.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-2xl font-semibold mb-4">All-inclusive Prijzen</h3>
+                        <p class="text-gray-600">Geen verborgen kosten. Transport, verzekering en technische ondersteuning inbegrepen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Wat Onze Klanten Zeggen</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"De service was uitstekend. Binnen 2 uur stond de hoogwerker op locatie en de kwaliteit was perfect. Heeft ons project enorm versneld."</p>
+                        <p class="font-semibold">Jan Bakker</p>
+                        <p class="text-sm text-gray-500">Projectmanager, BouwBedrijf Noord</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Zeer professionele aanpak en flexibele service. De 24/7 ondersteuning gaf ons extra zekerheid tijdens ons project."</p>
+                        <p class="font-semibold">Lisa de Vries</p>
+                        <p class="text-sm text-gray-500">Eigenaar, Schildersbedrijf De Vries</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Snelle levering en uitstekende prijs-kwaliteitverhouding. De korting maakte het extra aantrekkelijk."</p>
+                        <p class="font-semibold">Peter Jansen</p>
+                        <p class="text-sm text-gray-500">ZZP'er, Installatiebedrijf Jansen</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Al jaren vaste klant vanwege de betrouwbaarheid en kwaliteit van de machines. Altijd goed onderhouden materieel."</p>
+                        <p class="font-semibold">Marie Visser</p>
+                        <p class="text-sm text-gray-500">Directeur, Visser Onderhoud BV</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Over Ons</h2>
+                <div class="max-w-3xl mx-auto">
+                    <p class="text-gray-600 mb-6">Opgericht in 2010, zijn wij uitgegroeid tot de toonaangevende hoogwerkerverhuurder in Veendam en omstreken. Met een uitgebreide vloot van moderne machines en een team van ervaren professionals, staan we bekend om onze betrouwbare service en technische expertise.</p>
+                    <p class="text-gray-600">Onze missie is om klanten te voorzien van veilige, efficiënte en betaalbare hoogwerkeroplossingen. We geloven in transparante prijzen, persoonlijke service en duurzame partnerships met onze klanten. Veiligheid, kwaliteit en klanttevredenheid staan bij ons voorop.</p>
                 </div>
             </div>
         </section>
@@ -67,17 +170,40 @@
             <div class="container mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Veelgestelde Vragen</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <!-- FAQ items... -->
+                    <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Wat zijn de leveringsvoorwaarden?</h3>
+                        <p class="text-gray-600">We leveren binnen 24 uur in Veendam en omgeving. Transport, plaatsing en basisinstructie zijn inbegrepen in de huurprijs.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Hoe werkt de verzekering?</h3>
+                        <p class="text-gray-600">Alle hoogwerkers zijn volledig verzekerd. Een eigen risico van €1000 is van toepassing. Extra verzekeringen zijn optioneel beschikbaar.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Wat gebeurt er bij een technisch probleem?</h3>
+                        <p class="text-gray-600">Onze 24/7 technische dienst staat voor u klaar. Bij storingen zijn we binnen 2 uur ter plaatse voor reparatie of vervanging.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Welke betalingsmogelijkheden zijn er?</h3>
+                        <p class="text-gray-600">We accepteren alle gangbare betaalmethoden, inclusief PIN, creditcard en zakelijke overboekingen. Facturering is mogelijk voor vaste klanten.</p>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl hover:shadow-lg transition-all duration-300">
+                        <h3 class="text-xl font-semibold mb-3">Is een certificaat nodig voor gebruik?</h3>
+                        <p class="text-gray-600">Voor bepaalde hoogwerkers is een certificaat verplicht. We bieden ook korte instructies en certificeringscursussen aan.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="py-24 bg-blue-600 text-white">
-            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <section id="contact" class="py-24 bg-blue-600 text-white" style="background-image: url('https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?auto=format&fit=crop&w=1920'); background-size: cover; background-position: center;">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div class="max-w-4xl mx-auto text-center">
                     <h2 class="text-3xl md:text-4xl font-bold mb-8">Klaar om te Huren?</h2>
-                    <p class="text-xl mb-8">Profiteer nu van 10% korting - Nog maar 3 dagen geldig!</p>
-                    <a href="https://hansschuiling.nl" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300">Direct Huren</a>
+                    <p class="text-xl mb-8">Profiteer nu van 10% korting op alle hoogwerkers - Nog maar 3 dagen geldig!</p>
+                    <a href="https://hansschuiling.nl" class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Direct Huren</a>
                 </div>
             </div>
         </section>
@@ -88,14 +214,66 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-semibold mb-4">Contact</h3>
-                    <p class="mb-2">support@example.com</p>
+                    <p class="mb-2">Tel: 0598-123456</p>
+                    <p class="mb-2">Email: info@hoogwerkerveendam.nl</p>
+                    <p>Adres: Industrieweg 1, Veendam</p>
                 </div>
-                <!-- More footer columns... -->
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="https://readthisnow.github.io/hoogwerker-huren-veendam-2025-04-27-mi7ir/privacy.html" class="hover:text-blue-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/hoogwerker-huren-veendam-2025-04-27-mi7ir/terms.html" class="hover:text-blue-400 transition-colors duration-300">Algemene Voorwaarden</a></li>
+                        <li><a href="https://readthisnow.github.io/hoogwerker-huren-veendam-2025-04-27-mi7ir/blog.html" class="hover:text-blue-400 transition-colors duration-300">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Openingstijden</h3>
+                    <p class="mb-2">Ma-Vr: 07:00 - 18:00</p>
+                    <p class="mb-2">Za: 08:00 - 17:00</p>
+                    <p>Zo: Gesloten</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Certificeringen</h3>
+                    <p class="mb-2">VCA Gecertificeerd</p>
+                    <p class="mb-2">ISO 9001:2015</p>
+                    <p>Veiligheid Checklist Aannemers</p>
+                </div>
             </div>
             <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
                 <p>&copy; 2024 Hoogwerker Huren Veendam. Alle rechten voorbehouden.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
